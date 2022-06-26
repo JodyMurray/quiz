@@ -50,16 +50,6 @@ body {
     display: flex;
 }
 /*quiz page styling*/
-#quiz img {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    width: 100%;
-    height: 800px;
-    display: flex;
-    opacity: 0.5;
-}
 .quiz-section {
     background-color: rgb(182, 201, 182);
     border-radius: 20px;
