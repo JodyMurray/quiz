@@ -5,6 +5,7 @@
     padding: 0;
     background-color: #f2eecb;
 }
+/*home page styling*/
 #fellow img {
     background-position: center;
     background-repeat: no-repeat;
@@ -19,7 +20,7 @@
     font-family: 'Bilbo', cursive;
     font-size: 5rem;
     position: absolute;
-    left: 18%;
+    left: 23%;
     top: 40%;
     background-position: center;
     display: flex;
@@ -32,9 +33,38 @@
     border: 1px solid green;
     position: absolute;
     top: 60%;
-    left: 40%;
+    left: 41%;
     font-size: 2.5rem;
     border-radius: 10%;
     padding: 10px;
     display: flex;
+}
+/*quiz page styling*/
+#quiz img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    opacity: 0.5;
+}
+#next {
+    font-family: 'MedievalSharp', cursive;
+    width: auto;
+    height: auto;
+    border: 1px solid green;
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    font-size: 2.5rem;
+    border-radius: 10%;
+    padding: 10px;
+    display: flex;
+}
+#next:hover {
+    color: darkslategray;
+    border: darkolivegreen solid 1px;
+    background: transparent;
 }
