@@ -15,14 +15,14 @@ function buildQuiz(questions, quizSection, resultsSection, submitButton){
                 answers.push(
                     '<label>'
                     +'<input type="radio" name="question'+i+'"value="'+letter+'">'
-                    + letter+'": '
+                    + letter+' '
                     + questions[i].answers[letter]
                     + '</label>'
                 );
             }
 
             output.push(
-                '<div class="question> ' + questions[i].question + '</div>'
+                '<div class="question"> ' + questions[i].question + '</div>'
                 +'<div class="answers">' + answers.join('') + '</div>'
             );
         }

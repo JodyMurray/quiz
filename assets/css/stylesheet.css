@@ -69,36 +69,31 @@
     background: transparent;
 }
 /*Question styling*/
-#question{
-    width:500px;
-    height : 125px;
-    position: absolute;
-    right:0;
-    top:0;
+.question{
+	font-weight: 600;
+    font-size: 2rem;
+    font-family: s;
 }
-#question p{
-    margin : 0;
-    padding : 15px;
-    font-size: 1.25em;
+.answers {
+    margin-bottom: 20px;
+    line-height: 5%;
+    font-family: 'MedievalSharp', 'Bilbo';
 }
-
-#answers{
-    width : 480px;
-    position: absolute;
-    right : 0;
-    top : 125px;
-    padding : 10px
-}
-.answer{
-    display: inline-block;
-    width : 135px;
-    text-align: center;
-    border : 1px solid grey;
-    border-radius: 5px;
+#submit{
+    font-family: 'MedievalSharp', 'Bilbo';
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: darkolivegreen;
+    border: 1px solid green;
+    border-radius: 6px;
+    padding: 15px;
     cursor: pointer;
-    padding : 5px;
+    margin-bottom: 20px;
+    position: relative;
+    left: 80%;
 }
-.anwer:hover{
-    border : 2px solid grey;
-    font-weight: bold;
+#submit:hover {
+    color: darkslategray;
+    border: darkolivegreen solid 1px;
+    background: transparent;
 }
