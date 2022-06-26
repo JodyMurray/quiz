@@ -1,9 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Bilbo&family=MedievalSharp&family=Montserrat:wght@100&family=Poppins:wght@100&display=swap');
 * {
     border: 0;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+body {
     background-color: #f2eecb;
+    font-family: 'MedievalSharp', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+
 }
 /*home page styling*/
 #fellow img {
@@ -50,11 +60,26 @@
     display: flex;
     opacity: 0.5;
 }
+.quiz-section {
+    background-color: rgb(182, 201, 182);
+    border-radius: 20px;
+    box-shadow: 5px 2px;
+    width: 800px;
+    padding: 2%;
+}
+.quiz-head {
+    padding: 2%;
+}
+h2 {
+    padding: 5%;
+    text-align: center;
+    margin: auto;
+}
 #next {
     font-family: 'MedievalSharp', cursive;
     width: auto;
     height: auto;
-    border: 1px solid green;
+    border: 1px solid rgb(107, 177, 107);
     position: absolute;
     top: 70%;
     left: 80%;
@@ -79,7 +104,7 @@
     line-height: 5%;
     font-family: 'MedievalSharp', 'Bilbo';
 }
-#submit{
+/*#submit{
     font-family: 'MedievalSharp', 'Bilbo';
     font-size: 1.5rem;
     background-color: transparent;
@@ -96,4 +121,33 @@
     color: darkslategray;
     border: darkolivegreen solid 1px;
     background: transparent;
+}*/
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul li{
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+ul li label {
+    cursor: pointer;
+}
+button{
+    background-color: antiquewhite;
+    color: cadetblue;
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 2rem;
+    border-radius: inherit;
+    font-family: 'MedievalSharp';
+}
+button:hover {
+    background-color: beige;
+}
+button:focus {
+    
 }

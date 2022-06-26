@@ -11,10 +11,27 @@
     <title>QUIZ</title>
 </head>
 <body>
-    <div id="quiz"></div>
-        <button id="submit">Submit Quiz</button>
-        <div id="results">
-            <button id="next">Next</button>
+    <div class="quiz-section" id="quiz"> 
+    <div id="quiz-head">
+        <h2 id="question"> Question</h2>
+        <ul>
+            <li>
+                <input type="radio" name="answer" id="a" class="answer">
+                <label for="a" id="ans_text"></label>
+            </li>
+            <li>
+                <input type="radio" name="answer" id="b" class="answer">
+                <label for="b" id="ans_text"></label>
+            </li>
+            <li>
+                <input type="radio" name="answer" id="c" class="answer">
+                <label for="c" id="ans_text"></label>
+            </li>
+        </ul>
+    </div>
+    <button id="submit">Submit</button>
+
+    </div>
     <script src="assets/js/script.js"></script>
 </body>
 </html>
