@@ -10,9 +10,9 @@ var questionData = [
     },   
     {
         question: "What happened to the Fellowship of the Ring soon after they've left Lothlórien?",
-        answerA: "The group was trapped in a cave",
-        answerB: "The leader of the group got lost",
-        answerC: "The group was attacked by orcs",
+        a: "The group was trapped in a cave",
+        b: "The leader of the group got lost",
+        c: "The group was attacked by orcs",
         correctAnswer: "c"
     },
     {
@@ -118,14 +118,13 @@ function startQuiz(){
 function deselectAns() {
     answers.forEach(answers=> answers.checked =false)
 }
-function getSelected(){
-    let answers;
+function getSelected() {
     answers.forEach(answers => {
-        if(answers.checked){
+        if (answers.checked) {
             answers = answers.id;
         }
     });
-    return answer;
+    return answers;
 }
 submitButton.addEventListener('click', () => {
     const answer = getSelected()
