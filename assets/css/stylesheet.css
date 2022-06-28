@@ -6,24 +6,27 @@
     padding: 0;
 }
 body {
-    background-color: #f2eecb;
+    background-color: #FBF9EA;
     font-family: 'MedievalSharp', cursive;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     overflow: hidden;
+    margin: 0;
 }
 /*home page styling*/
 form img {
-    width: 200vh;
+    max-width: 180vh;
     height: 100vh;
     opacity: 0.7;
     display: flex;
+    flex-direction: inherit;
+    filter: drop-shadow(2px 4px 6px black);
 }
 #welcome {
     font-family: 'Bilbo', cursive;
-    font-size: 5rem;
+    font-size: 4.5rem;
     position: absolute;
     left: 22%;
     top: 40%;
@@ -100,7 +103,7 @@ h2 {
     background: transparent;
 }
 /*Question styling*/
-.question{
+.question {
 	font-weight: 600;
     font-size: 2rem;
     font-family: s;
@@ -118,14 +121,15 @@ ul {
     list-style-type: none;
     padding: 0;
 }
-ul li{
+ul li {
     font-size: 1.5rem;
-    margin: 1rem;
+    margin: 3%;
 }
 ul li label {
     cursor: pointer;
+    margin: 2%;
 }
-button{
+button {
     background-color: antiquewhite;
     color: cadetblue;
     border: none;
@@ -139,4 +143,102 @@ button{
 }
 button:hover {
     background-color: beige;
+}
+
+/*Media queries section*/
+/* For large screens sizes from 3840px wide and down */
+@media screen and (min-width: 2900px) and (max-width: 3840px){
+#welcome {
+    font-size: 15rem;
+    left: 20%;
+    }
+#start {
+    font-size: 10rem;
+    width: auto;
+    height: auto;
+    left: 38%;
+}
+body .quiz-section {
+    font-size: 5rem;
+    width: auto;
+    height: auto;
+}
+
+ul li label {
+    font-size: 5rem;
+}
+#logo {
+    font-size: 6rem;
+}
+button {
+    font-size: 5rem;
+}
+#menu-bar a {
+    font-size: 4rem;
+}
+input[type='radio'] { 
+    transform: scale(3); 
+}
+}
+/* For large screens sizes from 2560px wide and down */
+@media screen and (max-width: 2560px) {
+    #welcome {
+        font-size: 9rem;
+    }
+    #start {
+        font-size: 4.5rem;
+    }
+
+    body .quiz-section {
+        font-size: 2rem;
+        width: auto;
+        height: auto;
+    }
+    ul li label {
+        font-size: 3rem;
+    }
+    #logo {
+        font-size: 4rem;
+    }
+    button {
+        font-size: 3rem;
+    }
+    #menu-bar a {
+        font-size: 3rem;
+    }
+    input[type='radio'] { 
+        transform: scale(2.5); 
+    }
+}
+/* For large screens sizes from 1440px wide and down */
+@media screen and (max-width: 1440px) {
+    #welcome {
+        font-size: 5rem;
+    }
+    #start {
+        font-size: 2.5rem;
+    }
+    body .quiz-section {
+        font-size: 1.5rem;
+        width: 90%;
+        height: 90%;
+        margin-left: 5%;
+    }
+    ul li label {
+        font-size: 2rem;
+        transform: scale(1);
+    }
+    #logo {
+        font-size: 2rem;
+        text-align: center;
+    }
+    button {
+        font-size: 2rem;
+    }
+    #menu-bar a {
+        font-size: 2rem;
+    }
+    input[type='radio'] { 
+        transform: scale(1.5); 
+    }
 }
