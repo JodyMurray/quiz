@@ -58,11 +58,11 @@ var questionData = [
         correctAnswer: "c"
     },  
     {
-        question: "What are exactly the Two Watchers?",
-        a: "Carved statues on the entrance to the Cirith Ungol Tower",
-        b: "Massive statues of Anarion and Isildur standing on the River Anduin",
-        c: "Two rivers flowing through and creating the borders in the Gap of Rohan",
-        correctAnswer: "a"
+        question: "On which finger is Sauron seen wearing the Ring?",
+        a: "Middle finger",
+        b: "Index finger",
+        c: "Thumb",
+        correctAnswer: "b"
     },
     {
         question: "What are Palantiri?",
