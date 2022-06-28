@@ -8,11 +8,11 @@ var questionData = [
         correctAnswer: "C"
     },   
     {
-        question: "What happened to the Fellowship of the Ring soon after they've left Lothlórien?",
-        a: "The group was trapped in a cave",
-        b: "The leader of the group got lost",
-        c: "The group was attacked by orcs",
-        correctAnswer: "c"
+        question: "What does the Elvish word 'mellon' mean?",
+        a: "Friend",
+        b: "Enemy",
+        c: "Man",
+        correctAnswer: "a"
     },
     {
         question: "What is the name of the wizard who always helps Frodo?",
