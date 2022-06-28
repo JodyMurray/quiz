@@ -44,7 +44,28 @@ form img {
     padding: 10px;
     display: flex;
 }
-/*quiz page styling*/
+
+/*Quiz page header styling*/
+#logo {
+    position: relative;
+    font-size: 2rem;
+    top: -40px;
+}
+#menu-bar a {
+    position: relative;
+    top: -20px;
+    font-size: 1.5rem;
+    color: olive;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+#menu-bar a:hover {
+    color: darkslategray;
+    background: transparent;
+    text-decoration: underline;
+}
+/*quiz page styling*/    
 .quiz-section {
     background-color: rgb(182, 201, 182);
     border-radius: 20px;
