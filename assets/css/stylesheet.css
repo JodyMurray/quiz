@@ -34,6 +34,11 @@ form img {
     display: flex;
     align-content: center;
 }
+#player-name {
+    position: absolute;
+    font-size: 2rem;
+    top: 10%;
+}
 #start {
     font-family: 'MedievalSharp', cursive;
     width: auto;
@@ -59,6 +64,10 @@ header {
     position: absolute;
     top: 0;
     margin-top: 4%;
+}
+#output1 {
+    position: absolute;
+    
 }
 
 #logo {
@@ -122,6 +131,12 @@ h2 {
     margin-bottom: 20px;
     line-height: 5%;
     font-family: 'MedievalSharp', 'Bilbo';
+}
+#name-box {
+    position: absolute;
+    top: 7%;
+    font-size: 2rem;
+    left: 5%;
 }
 button:hover {
     background-color: beige;
@@ -240,7 +255,6 @@ input[type='radio'] {
         font-size: 1.5rem;
         width: 120vh;
         height: auto;
-        top: 8%;
     }
     ul li label {
         font-size: 2rem;

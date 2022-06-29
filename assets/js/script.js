@@ -100,6 +100,10 @@ const aText = document.getElementById('a_text');
 const bText = document.getElementById('b_text');
 const cText = document.getElementById('c_text');
 const submitButton = document.getElementById('submit');
+// const text1 = document.getElementById('player-name');
+// const button = document.getElementById('start');
+// const out1 = document.getElementById('output1');
+
 
 let currentQuiz = 0;
 let score = 0;
@@ -138,5 +142,12 @@ submitButton.addEventListener('click', () => {
             quiz.innerHTML =`<h2>You answered ${score}/${questionData.length} questions correctly</h2>
             <button onclick="location.reload()">Reload</button>`
         }
-    }
-)
+    } 
+);
+// function getValue() {
+//     out1.innerHTML = text1.value;
+// }
+
+// button.addEventListener('click', getValue);
+var player = document.getElementById("player-name").value;
+        document.getElementById("output").innerHTML = player;
