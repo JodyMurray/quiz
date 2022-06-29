@@ -105,6 +105,19 @@ const submitButton = document.getElementById('submit');
 // const out1 = document.getElementById('output1');
 
 
+
+var count = 20;
+var interval = setInterval(function(){
+  document.getElementById('count').innerHTML=count;
+  count--;
+  if (count === 0){
+    clearInterval(interval);
+    document.getElementById('count').innerHTML='Done';
+    // or...
+    alert("You're out of time!");
+  }
+}, 1000);
+
 let currentQuiz = 0;
 let score = 0;
  //start quiz function
@@ -148,6 +161,6 @@ submitButton.addEventListener('click', () => {
 //     out1.innerHTML = text1.value;
 // }
 
-// button.addEventListener('click', getValue);
-var player = document.getElementById("player-name").value;
-        document.getElementById("output").innerHTML = player;
+// // button.addEventListener('click', getValue);
+// var player = document.getElementById("player-name").value;
+//         document.getElementById("output").innerHTML = player;

@@ -65,11 +65,6 @@ header {
     top: 0;
     margin-top: 4%;
 }
-#output1 {
-    position: absolute;
-    
-}
-
 #logo {
     position: relative;
     font-size: 2rem;
@@ -88,6 +83,10 @@ header {
     text-decoration: underline;
 }
 /*quiz page styling*/    
+#count {
+    font-size: 2rem;
+    position: relative;   
+}
 .quiz-section {
     background-color: rgb(182, 201, 182);
     border-radius: 20px;
