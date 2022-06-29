@@ -15,6 +15,11 @@ body {
     overflow: hidden;
     margin: 0;
 }
+#slide {
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+}
 /*home page styling*/
 form img {
     max-width: 180vh;
@@ -243,11 +248,10 @@ input[type='radio'] {
 @media screen and (max-width: 1440px) {
     #welcome {
         font-size: 4.5rem;
-        left: 26%;
     }
     #start {
         font-size: 2.1rem;
-        left: 37%;
+        left: 40%;
     }
     body .quiz-section {
         position: relative;
