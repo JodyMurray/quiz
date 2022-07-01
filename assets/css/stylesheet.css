@@ -23,20 +23,18 @@ body {
 }
 /*home page styling*/
 #welcome {
-    background-color: #EEE5BA;
-    border-radius: 20px;
-    width: auto;
-    height: 200px;
-    padding: 2%;
-    position: inherit;
+    padding: 3%;
+    position: absolute;
     display: flex;
     height: 50vh;
-    display: flex;
     align-items: center;
     font-family: 'Bilbo', cursive;
-    border-radius: 70%;
-    opacity: 0.6;
     font-weight: 200;
+    top: 28%;
+    left: 5%;
+    letter-spacing: initial;
+    flex-direction: row;
+    max-width: 50%;
 }
 #start {
     font-family: 'MedievalSharp', cursive;
@@ -44,8 +42,7 @@ body {
     height: auto;
     border: 1px solid green;
     position: absolute;
-    top: 60%;
-    left: 41%;
+    left: 65%;
     font-size: 2.5rem;
     border-radius: 10%;
     padding: 10px;
@@ -68,8 +65,9 @@ header {
     border-radius: 8%;
     height: auto;
     width: auto;
-    padding: 10px;
+    padding: 5px;
     filter: drop-shadow(2px 4px 6px black);
+    box-shadow: 5px 2px;
 }
 #logo {
     position: relative;
@@ -200,7 +198,9 @@ body .quiz-section {
     width: auto;
     height: auto;
 }
-
+#count {
+    font-size: 3.5rem;
+}
 ul li label {
     font-size: 5rem;
 }
@@ -221,23 +221,22 @@ input[type='radio'] {
 @media screen and (max-width: 2560px) {
     #welcome {
         font-size: 8.5rem;
-        left: 24%;
+        left: 1%;
     }
     #start {
         font-size: 4.5rem;
-        left: 35%;
     }
-    /* header {
-        margin-top: 4%;
-    } */
     body .quiz-section {
         height: auto;
-        font-size: 3rem;
-        width: 80%;
+        font-size: 3.5rem;
+        width: 70%;
         margin-top: 8%;
     }
     ul li label {
         font-size: 3rem;
+    }
+    #count {
+        font-size: 3.5rem;
     }
     #logo {
         font-size: 4rem;
@@ -256,14 +255,14 @@ input[type='radio'] {
 @media screen and (max-width: 1440px) {
     #welcome {
         font-size: 4.5rem;
+        left: 20px;
     }
     #start {
         font-size: 2.1rem;
-        left: 40%;
     }
     body .quiz-section {
         position: relative;
-        font-size: 1.5rem;
+        font-size: 2rem;
         width: 120vh;
         height: auto;
         margin-bottom: -5%;
@@ -275,6 +274,9 @@ input[type='radio'] {
     #logo {
         font-size: 2rem;
         text-align: center;
+    }
+    #count {
+        font-size: 2rem;
     }
     button {
         font-size: 2rem;
@@ -290,11 +292,9 @@ input[type='radio'] {
 @media screen and (max-width: 1024px) {
     #welcome {
         font-size: 3.8rem;
-        left: 21%;
     }
     #start {
         font-size: 2rem;
-        left: 33%;
     }
     #logo {
         font-size: 1.5rem;
@@ -318,8 +318,6 @@ input[type='radio'] {
 @media screen and (max-width: 768px) {
     #welcome {
         font-size: 3rem;
-        margin-left: -10px;
-        left: 21%;
     }
     #start {
         font-size: 1.5rem;
@@ -341,14 +339,12 @@ input[type='radio'] {
 /* For large phone screens sizes from 425px wide and down */
 @media screen and (max-width: 425px) {
     #welcome {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
     max-width: 60%;
-    margin-left: 5%;
+    left: 0;
 }
     #start {
     font-size: 1.1rem;
-    top: 56%;
-    left: 25%;
     }
     header {
     text-align: center;
@@ -356,6 +352,12 @@ input[type='radio'] {
     display: flex;
     flex-direction: column;
     height: 22%;
+    }
+    #logo {
+    top: 15%;
+    }
+    #count {
+        font-size: 1.5rem;
     }
     body .quiz-section {
     position: relative;
@@ -365,8 +367,7 @@ input[type='radio'] {
 /* For medium to small phone screens sizes from 375px wide and down */
 @media screen and (max-width: 375px) {
     #welcome {
-        font-size: 2.5rem;
-        left: 20%;
+        font-size: 2.2rem;
     }
     #start {
         font-size: 1rem;
@@ -378,20 +379,22 @@ input[type='radio'] {
 /* For small phone screens sizes from 320px wide and down */
 @media screen and (max-width: 320px) {
     #welcome {
-        font-size: 2.3rem;
-        left: 18%;
+        font-size: 2rem;
+        width: 50%;
     }
     #start {
         font-size: 1rem;
-        left: 23%;
-        top: 59%;
+        left: 60%;
+    }
+    #logo {
+        top: 10%;
     }
     form img {
         height: 60vh;
         width: 50vh;
     }
     #menu-bar a {
-        top: -27%;
+        top: -20%;
     }
     .quiz-section {
         top: 5%;
