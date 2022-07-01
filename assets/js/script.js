@@ -1,12 +1,11 @@
 //questions and answers
-var questionData = [
-    {
+var questionData = [{
         question: "Who is Bilbo Baggins?",
         a: "The elf",
         b: "The dwarf",
         c: "The hobbit",
         correctAnswer: "C"
-    },   
+    },
     {
         question: "What does the Elvish word 'mellon' mean?",
         a: "Friend",
@@ -16,7 +15,7 @@ var questionData = [
     },
     {
         question: "What is the name of the wizard who always helps Frodo?",
-        a:"Gandalf",
+        a: "Gandalf",
         b: "Saruman",
         c: "Sauron",
         correctAnswer: "a"
@@ -38,7 +37,7 @@ var questionData = [
     },
     {
         question: "Who wanted to take over the kingdom of Rohan?",
-        a:"Gandalf",
+        a: "Gandalf",
         b: "Sauron",
         c: "Saruman",
         correctAnswer: "c"
@@ -56,7 +55,7 @@ var questionData = [
         b: "The Return of the King",
         c: "The Fellowship of the Ring",
         correctAnswer: "c"
-    },  
+    },
     {
         question: "On which finger is Sauron seen wearing the Ring?",
         a: "Middle finger",
@@ -80,7 +79,7 @@ var questionData = [
     },
     {
         question: "Who is not affected by the Ring?",
-        a:"Galadriel",
+        a: "Galadriel",
         b: "Bilbo",
         c: "Sam",
         correctAnswer: "c"
@@ -93,34 +92,39 @@ var questionData = [
         correctAnswer: "a"
     },
 ];
+
 const quiz = document.getElementById('quiz');
 const answers = document.querySelectorAll('.answer');
 const questionP = document.getElementById('question');
-const aText = document.getElementById('a_text');
-const bText = document.getElementById('b_text');
-const cText = document.getElementById('c_text');
+const aText = document.getElementById('a-text');
+const bText = document.getElementById('b-text');
+const cText = document.getElementById('c-text');
 const submitButton = document.getElementById('submit');
-// const text1 = document.getElementById('player-name');
-// const button = document.getElementById('start');
-// const out1 = document.getElementById('output1');
-
 
 
 var count = 20;
-var interval = setInterval(function(){
-  document.getElementById('count').innerHTML=count;
-  count--;
-  if (count === 0){
-    clearInterval(interval);
-    document.getElementById('count').innerHTML='Done';
-  }
+var interval = setInterval(function () {
+    document.getElementById('count').innerHTML = count;
+    count--;
+    if (count === 0) {
+        clearInterval(interval);
+        document.getElementById('count').innerHTML = 'Done';
+    }
+
 }, 1000);
 
+
+// function resetTimer() {
+//     if (count === 0) {
+//         document.getElementById('count').textContent = '20'
+//     }
+// }
 let currentQuiz = 0;
 let score = 0;
- //start quiz function
+//start quiz function
 startQuiz()
-function startQuiz(){
+
+function startQuiz() {
     deselectAns()
     const currentQuizData = questionData[currentQuiz];
 
@@ -129,13 +133,12 @@ function startQuiz(){
     bText.innerText = currentQuizData.b;
     cText.innerText = currentQuizData.c;
 }
-function deselectAns() 
-{
-    answers.forEach(answers=> answers.checked =false)
+
+function deselectAns() {
+    answers.forEach(answers => answers.checked = false)
 }
 
-function getSelected() 
-{
+function getSelected() {
     let answer
     answers.forEach(answers => {
         if (answers.checked) {
@@ -148,18 +151,17 @@ function getSelected()
 
 submitButton.addEventListener('click', () => {
     const answer = getSelected()
-        if(answer === questionData[currentQuiz].correctAnswer){
-            score++;
-        }
-        currentQuiz++;
-        if(currentQuiz < questionData.length) {
-            startQuiz()
-        } else {
-            quiz.innerHTML =`<h2>You answered ${score}/${questionData.length} questions correctly</h2>
+    if (answer === questionData[currentQuiz].correctAnswer) {
+        score++;
+    }
+    currentQuiz++;
+    if (currentQuiz < questionData.length) {
+        startQuiz()
+    } else {
+        quiz.innerHTML = `<h2>You answered ${score}/${questionData.length} questions correctly</h2>
             <button onclick="location.reload()">Reload</button>`
-        }
-    } 
-);
+    }
+});
 var i = 0;
 var images = [];
 var slideTime = 5000; // 3 seconds

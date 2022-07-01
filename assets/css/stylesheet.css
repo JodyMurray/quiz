@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bilbo&family=MedievalSharp&family=Montserrat:wght@100&family=Poppins:wght@100&display=swap');
+
 * {
     border: 0;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
 body {
     background-color: #f2eecb;
     font-family: 'MedievalSharp', cursive;
@@ -21,6 +23,7 @@ body {
     transition: 1s;
     background-blend-mode: darken;
 }
+
 /*home page styling*/
 #welcome {
     padding: 3%;
@@ -36,6 +39,7 @@ body {
     flex-direction: row;
     max-width: 50%;
 }
+
 #start {
     font-family: 'MedievalSharp', cursive;
     width: auto;
@@ -51,6 +55,7 @@ body {
     background: transparent;
     box-shadow: 5px 2px;
 }
+
 /*Quiz page header styling*/
 header {
     clear: both;
@@ -69,10 +74,12 @@ header {
     filter: drop-shadow(2px 4px 6px black);
     box-shadow: 5px 2px;
 }
+
 #logo {
     position: relative;
     font-size: 2rem;
 }
+
 #menu-bar a {
     position: relative;
     font-size: 1.5rem;
@@ -81,11 +88,13 @@ header {
     display: flex;
     justify-content: center;
 }
+
 #menu-bar a:hover {
     color: darkslategray;
     background: transparent;
     text-decoration: underline;
 }
+
 /*Quiz page slide styling*/
 #slide {
     background-position: center;
@@ -93,11 +102,13 @@ header {
     opacity: 0.8;
     transition: 1s;
 }
-/*quiz page styling*/    
+
+/*quiz page styling*/
 #count {
     font-size: 2rem;
-    position: relative;   
+    position: relative;
 }
+
 .quiz-section {
     background-color: rgb(182, 201, 182);
     border-radius: 20px;
@@ -105,15 +116,18 @@ header {
     width: 800px;
     padding: 2%;
 }
+
 .quiz-head {
     padding: 2%;
 }
+
 h2 {
     padding: 5%;
     text-align: center;
     margin: auto;
     font-size: 2.5rem;
 }
+
 #next {
     font-family: 'MedievalSharp', cursive;
     width: auto;
@@ -127,45 +141,54 @@ h2 {
     padding: 10px;
     display: flex;
 }
+
 #next:hover {
     color: darkslategray;
     border: darkolivegreen solid 1px;
     background: transparent;
 }
+
 /*Question styling*/
 .question {
-	font-weight: 600;
+    font-weight: 600;
     font-size: 2rem;
     font-family: s;
 }
+
 .answers {
     margin-bottom: 20px;
     line-height: 5%;
     font-family: 'MedievalSharp', 'Bilbo';
 }
+
 #name-box {
     position: absolute;
     top: 7%;
     font-size: 2rem;
     left: 5%;
 }
+
 button:hover {
     background-color: beige;
     color: black;
 }
+
 ul {
     list-style-type: none;
     padding: 0;
 }
+
 ul li {
     font-size: 1.5rem;
     margin: 3%;
 }
+
 ul li label {
     cursor: pointer;
     margin: 2%;
     font-size: 2.5rem;
 }
+
 button {
     background-color: antiquewhite;
     color: darkgreen;
@@ -178,99 +201,123 @@ button {
     border-radius: inherit;
     font-family: 'MedievalSharp';
 }
+
 button:hover {
     background-color: beige;
 }
 
 /*Media queries section*/
 /* For large screens sizes from 3840px wide and down */
-@media screen and (min-width: 2900px) and (max-width: 3840px){
-#welcome {
-    font-size: 15rem;
-    left: 20%;
+@media screen and (min-width: 2900px) and (max-width: 3840px) {
+    #welcome {
+        font-size: 15rem;
+        left: 20%;
     }
-h2 {
-    font-size: 3.5rem;
+
+    h2 {
+        font-size: 3.5rem;
+    }
+
+    #start {
+        font-size: 10rem;
+        width: auto;
+        height: auto;
+        left: 38%;
+    }
+
+    body .quiz-section {
+        font-size: 5rem;
+        width: auto;
+        height: auto;
+    }
+
+    #count {
+        font-size: 3.5rem;
+    }
+
+    ul li label {
+        font-size: 5rem;
+    }
+
+    #logo {
+        font-size: 6rem;
+    }
+
+    button {
+        font-size: 5rem;
+    }
+
+    #menu-bar a {
+        font-size: 4rem;
+    }
+
+    input[type='radio'] {
+        transform: scale(3);
+    }
 }
-#start {
-    font-size: 10rem;
-    width: auto;
-    height: auto;
-    left: 38%;
-}
-body .quiz-section {
-    font-size: 5rem;
-    width: auto;
-    height: auto;
-}
-#count {
-    font-size: 3.5rem;
-}
-ul li label {
-    font-size: 5rem;
-}
-#logo {
-    font-size: 6rem;
-}
-button {
-    font-size: 5rem;
-}
-#menu-bar a {
-    font-size: 4rem;
-}
-input[type='radio'] { 
-    transform: scale(3); 
-}
-}
+
 /* For large screens sizes from 2560px wide and down */
 @media screen and (max-width: 2560px) {
     #welcome {
         font-size: 8.5rem;
         left: 1%;
     }
+
     #start {
         font-size: 4.5rem;
     }
+
     h2 {
         font-size: 3.5rem;
     }
+
     body .quiz-section {
         height: auto;
         font-size: 3.5rem;
         width: 70%;
         margin-top: 8%;
     }
+
     ul li label {
         font-size: 3rem;
     }
+
     #count {
         font-size: 3.5rem;
     }
+
     #logo {
         font-size: 4rem;
     }
+
     button {
         font-size: 3rem;
     }
+
     #menu-bar a {
         font-size: 3rem;
     }
-    input[type='radio'] { 
-        transform: scale(2.5); 
+
+    input[type='radio'] {
+        transform: scale(2.5);
     }
 }
+
 /* For large screens sizes from 1440px wide and down */
 @media screen and (max-width: 1440px) {
     #welcome {
         font-size: 4.5rem;
         left: 20px;
     }
+
     #start {
         font-size: 2.1rem;
     }
+
     h2 {
         font-size: 3rem;
     }
+
     body .quiz-section {
         position: relative;
         font-size: 2rem;
@@ -278,144 +325,177 @@ input[type='radio'] {
         height: auto;
         margin-bottom: -5%;
     }
+
     ul li label {
         font-size: 2rem;
         transform: scale(1);
     }
+
     #logo {
         font-size: 2.5rem;
         text-align: center;
     }
+
     #count {
         font-size: 2rem;
     }
+
     button {
         font-size: 2rem;
     }
+
     #menu-bar a {
         font-size: 2rem;
     }
-    input[type='radio'] { 
-        transform: scale(1.5); 
+
+    input[type='radio'] {
+        transform: scale(1.5);
     }
 }
+
 /* For Medium screens sizes from 1024px wide and down */
 @media screen and (max-width: 1024px) {
     #welcome {
         font-size: 3.8rem;
     }
+
     #start {
         font-size: 2rem;
     }
+
     #logo {
         font-size: 1.5rem;
     }
+
     #menu-bar a {
         font-size: 1.5rem;
     }
+
     h2 {
         font-size: 2.3rem;
     }
+
     ul li label {
         font-size: 1.5rem;
     }
+
     body .quiz-section {
         font-size: 1rem;
         width: 100vh;
     }
+
     button {
         font-size: 1.5rem;
         padding: 5%;
     }
 }
+
 /* For tablet screens sizes from 768px wide and down */
 @media screen and (max-width: 768px) {
     #welcome {
         font-size: 3rem;
     }
+
     #start {
         font-size: 1.5rem;
     }
+
     form img {
         width: 100%;
     }
-    body .quiz-section {
+
+    body .quiz-section {
         font-size: 1rem;
         width: 100vh;
     }
 }
+
 /* For tablet screens sizes from 768px wide and down */
 @media screen and (max-width: 768px) {
     form img {
         height: auto;
     }
 }
+
 /* For large phone screens sizes from 425px wide and down */
 @media screen and (max-width: 425px) {
     #welcome {
-    font-size: 2.4rem;
-    max-width: 60%;
-    left: 0;
+        font-size: 2.4rem;
+        max-width: 60%;
+        left: 0;
     }
+
     #start {
-    font-size: 1.1rem;
+        font-size: 1.1rem;
     }
+
     header {
-    text-align: center;
-    white-space: pre-wrap;
-    display: flex;
-    flex-direction: column;
-    height: 22%;
+        text-align: center;
+        white-space: pre-wrap;
+        display: flex;
+        flex-direction: column;
+        height: 22%;
     }
+
     h2 {
-    font-size: 2rem;
+        font-size: 2rem;
     }
+
     #logo {
-    top: 15%;
+        top: 15%;
     }
+
     #count {
         font-size: 1.5rem;
     }
+
     body .quiz-section {
-    position: relative;
-    top: 5%;
+        position: relative;
+        top: 5%;
     }
 }
+
 /* For medium to small phone screens sizes from 375px wide and down */
 @media screen and (max-width: 375px) {
     #welcome {
         font-size: 2.2rem;
     }
+
     #start {
         font-size: 1rem;
     }
+
     body .quiz-section {
         top: 5%;
     }
 }
+
 /* For small phone screens sizes from 320px wide and down */
 @media screen and (max-width: 320px) {
     #welcome {
         font-size: 2rem;
         width: 50%;
     }
+
     #start {
         font-size: 1rem;
         left: 60%;
     }
+
     #logo {
         top: 10%;
     }
+
     form img {
         height: 60vh;
         width: 50vh;
     }
+
     #menu-bar a {
         top: -20%;
     }
+
     .quiz-section {
         top: 5%;
     }
 }
-
-
