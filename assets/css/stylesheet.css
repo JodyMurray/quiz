@@ -16,12 +16,10 @@ body {
     height: 100vh;
     overflow: hidden;
     margin: 0;
-    background-image: url('../images/pages2.webp');
+    background-image: url('../images/book.jpeg');
     background-position: center;
     background-size: cover;
-    opacity: 0.8;
     transition: 1s;
-    background-blend-mode: darken;
 }
 
 /*home page styling*/
@@ -232,12 +230,12 @@ button:hover {
 /* For large screens sizes from 2560px wide and down */
 @media screen and (max-width: 2560px) {
     #welcome {
-        font-size: 8.5rem;
+        font-size: 7.5rem;
         left: 1%;
     }
 
     #start {
-        font-size: 4.5rem;
+        font-size: 3.5rem;
     }
 
     h2 {
@@ -277,7 +275,7 @@ button:hover {
 }
 
 /* For large screens sizes from 1440px wide and down */
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1440px) and (max-width: 1800px) {
     #welcome {
         font-size: 4.5rem;
         left: 20px;
