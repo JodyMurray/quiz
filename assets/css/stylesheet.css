@@ -16,7 +16,7 @@ body {
     height: 100vh;
     overflow: hidden;
     margin: 0;
-    background-image: url(/assets/images/pages2.webp);
+    background-image: url(assets/images/pages2.webp);
     background-position: center;
     background-size: cover;
     opacity: 0.8;
