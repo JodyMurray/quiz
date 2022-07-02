@@ -16,7 +16,7 @@ body {
     height: 100vh;
     overflow: hidden;
     margin: 0;
-    background-image: url(assets/images/pages2.webp);
+    background-image: url('../images/pages2.webp');
     background-position: center;
     background-size: cover;
     opacity: 0.8;
@@ -128,26 +128,6 @@ h2 {
     font-size: 2.5rem;
 }
 
-#next {
-    font-family: 'MedievalSharp', cursive;
-    width: auto;
-    height: auto;
-    border: 1px solid rgb(107, 177, 107);
-    position: absolute;
-    top: 70%;
-    left: 80%;
-    font-size: 2rem;
-    border-radius: 10%;
-    padding: 10px;
-    display: flex;
-}
-
-#next:hover {
-    color: darkslategray;
-    border: darkolivegreen solid 1px;
-    background: transparent;
-}
-
 /*Question styling*/
 .question {
     font-weight: 600;
@@ -161,16 +141,9 @@ h2 {
     font-family: 'MedievalSharp', 'Bilbo';
 }
 
-#name-box {
-    position: absolute;
-    top: 7%;
-    font-size: 2rem;
-    left: 5%;
-}
-
 button:hover {
-    background-color: beige;
-    color: black;
+    background-color: antiquewhite;
+    color: darkslategray;
 }
 
 ul {
