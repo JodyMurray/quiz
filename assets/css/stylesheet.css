@@ -308,7 +308,7 @@ button:hover {
     }
 
     #count {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     button {
@@ -384,10 +384,12 @@ button:hover {
 
 /* For tablet screens sizes from 768px wide and down */
 @media screen and (max-width: 768px) {
-    form img {
-        height: auto;
-    }
+        #count {
+            font-size: 2.5rem;
+        }
 }
+    
+
 
 /* For large phone screens sizes from 425px wide and down */
 @media screen and (max-width: 425px) {
@@ -399,6 +401,10 @@ button:hover {
 
     #start {
         font-size: 1.1rem;
+    }
+    #menu-bar a {
+        position: relative;
+        top: -5%;
     }
 
     header {
@@ -435,6 +441,9 @@ button:hover {
 
     #start {
         font-size: 1rem;
+    }
+    #menu-bar a {
+        top: -5%;
     }
 
     body .quiz-section {
