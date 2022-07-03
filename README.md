@@ -107,8 +107,9 @@ The slide-show of images is the result of a javascript function and source links
 - CSS
 - JavaScript
 
-## Testing 
-# Validator testing 
+# Testing 
+
+## Validator testing 
 - HTML
   - No errors were found using W3C HTML validator testing.
 <img width="1392" alt="Screenshot 2022-07-03 at 08 01 42" src="https://user-images.githubusercontent.com/101525431/177038154-8afff423-e453-4da7-9b45-a80bcc61b26a.png">
