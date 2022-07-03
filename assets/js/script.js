@@ -102,7 +102,7 @@ const cText = document.getElementById('c-text');
 const submitButton = document.getElementById('submit');
 
 
-var count = 20;
+var count = 30;
 var interval = setInterval(function () {
     document.getElementById('count').innerHTML = count;
     count--;
