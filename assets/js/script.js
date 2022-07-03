@@ -153,12 +153,12 @@ submitButton.addEventListener('click', () => {
         startQuiz();
     } else {
         quiz.innerHTML = `<h2>You answered ${score}/${questionData.length} questions correctly</h2>
-            <button onclick="location.reload()">Reload</button>`
-    };
+            <button onclick="location.reload()">Reload</button>`;
+    }
 });
 var i = 0;
 var images = [];
-var slideTime = 5000; // 3 seconds
+var slideTime = 5000; // 5 seconds
 
 images[0] = 'https://i.guim.co.uk/img/media/fd1398dcde9ef858d15a5cbacd2d4d13fae94ee2/447_0_1986_1192/master/1986.jpg?width=465&quality=45&auto=format&fit=max&dpr=2&s=a40ac39a948faf6f15c44d69fdb0e850';
 images[1] = 'https://irs.www.warnerbros.com/hero-banner-v2-tablet-jpeg/movies/media/browser/the_lord_of_the_rings_the_fellowship_of_the_ring_banner.jpeg';
