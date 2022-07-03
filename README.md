@@ -22,8 +22,7 @@ A live version of the site can be found here:
   - [Typography](#typography "Typography")
   - [Images](#images "Images")
 - [Features](#features "Features")
-  - [Welcome note and start button](#welcome-note-and-start-button "Welcome note and start button")
-  - [Home Page Image](#home-page-image "Home Page Image")
+  - [Welcome page and start button](#welcome-page-and-start-button "Welcome page and start button")
   - [Quiz Header](#quiz-header "Quiz Header")
   - [Quiz Section](#quiz-section "Quiz Section")
 - [Technologies Used](#technologies-used "Technologies Used")
@@ -71,17 +70,12 @@ Images have been chosen in accordance to colour and content. The purpose of the 
 The slide-show of images is the result of a javascript function and source links to the images.
 
 ## Features
-- Welcome note and start button
- - Home Page Image 
+- Welcome page and start button
  - Quiz Header
  - Quiz Section
 
-# Welcome note and start button
-- The Welcome note consits of a familiar quote from The Lord of the Rings series; "Not all those who wander are lost...". And next to it on a page like image is the 'Begin Quiz' Button, which brings you to the quiz page.
-
-<img width="1433" alt="Screenshot 2022-07-03 at 13 19 25" src="https://user-images.githubusercontent.com/101525431/177037129-854877de-0233-49bd-b787-d29cafbd3b49.png">
-
-# Home Page Image 
+# Welcome page and start button
+- The Welcome note consits of a familiar quote from The Lord of the Rings series; "Not all those who wander are lost...". And next to it on a page like image is the 'Begin Quiz' Button, which brings you to the quiz page. 
 - The image used is an open book with two pages showing, the image used was from google. Going with the theme of books.
 
 <img width="1440" alt="Screenshot 2022-07-03 at 13 25 20" src="https://user-images.githubusercontent.com/101525431/177037328-67b81df6-fe80-4eae-86d1-eadb8cf287d3.png">
@@ -102,7 +96,7 @@ The slide-show of images is the result of a javascript function and source links
 
 <img width="1340" alt="Screenshot 2022-07-03 at 13 36 05" src="https://user-images.githubusercontent.com/101525431/177037782-f46543ab-fc8d-4b82-aa87-bfef9abf5e39.png">
 
-## Technologies Used 
+# Technologies Used 
 - HTML
 - CSS
 - JavaScript
@@ -120,10 +114,10 @@ The slide-show of images is the result of a javascript function and source links
 <img width="1416" alt="Screenshot 2022-07-03 at 08 02 07" src="https://user-images.githubusercontent.com/101525431/177038178-7f6fb13b-98c2-4200-8ad4-c02122d72eea.png">
 
 - JavaScript 
- - No errors were found using jShint validator testing.
+  - No errors were found using jShint validator testing.
 <img width="638" alt="Screenshot 2022-07-03 at 11 52 01" src="https://user-images.githubusercontent.com/101525431/177038210-b71a6373-e4fc-4828-bc4b-39b3a508469d.png">
 
-# Lighthouse testing
+## Lighthouse testing
 <img width="1430" alt="Screenshot 2022-07-02 at 19 22 04" src="https://user-images.githubusercontent.com/101525431/177038223-70e948d5-5eea-4c43-94b0-bbaccf62d8d6.png">
 
 ## Testing and Bugs
@@ -140,7 +134,7 @@ The following is the bugs I came across:
  - Solution; Add said semicolons.
 5. On Firefox browser, the transition feature from the CSS doesn't work as nicely as it does on Google Chrome.
 
-## Deployment 
+# Deployment 
 The development platform used for this project was GitPod. To track the development stage and handle version control regular commits and pushes to GitHub has been conducted. The GitPod environment was created using a template provided by Code Institute.
 
 The live version of the project is deployed at GitHub pages.
@@ -171,7 +165,7 @@ https://jodymurray.github.io/quiz/
 - [6] = 'https://c4.wallpaperflare.com/wallpaper/793/812/996/the-lord-of-the-rings-bag-end-the-shire-interiors-house-wallpaper-thumb.jpg'
 - [7] = 'https://4.bp.blogspot.com/-0_0N_ImKgNk/UDFHRCscN8I/AAAAAAAAAH4/ubjGvvV2Zv4/w1200-h630-p-k-no-nu/middle-earth-map.jpg'
    
-## Acknowledgements
+# Acknowledgements
 For inspiration, for code, design help and advice, I'd like to thank;
 
 Martina Terlevic
@@ -179,7 +173,7 @@ Martina Terlevic
 
 The Code Institute.
 
-## Sources
+# Sources
 Sites that provided me with helpful information and resolved many of my issues;
 https://www.w3schools.com/
 https://stackoverflow.com/
