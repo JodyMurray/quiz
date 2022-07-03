@@ -22,10 +22,10 @@ A live version of the site can be found here:
   - [Typography](#typography "Typography")
   - [Images](#images "Images")
 - [Features](#features "Features")
-  - [Hero Image](#hero-image "Hero Image")
-  - [Welcome](#welcome "Welcome")
-  - [Quiz](#quiz "Quiz")
-  - [Header and Navigation Bar](#header-and-navigation-bar "Header and Navigation Bar")
+  - [Welcome note and start button](#welcome-note-and-start-button "Welcome note and start button")
+  - [Home Page Image](#home-page-image "Home Page Image")
+  - [Quiz Header](#quiz-header "Quiz Header")
+  - [Quiz Section](#quiz-section "Quiz Section")
 - [Technologies Used](#technologies-used "Technologies Used")
 - [Testing](#testing "Testing")
   - [Validator testing](#validator-testing "Validator Testing")
@@ -160,14 +160,15 @@ https://jodymurray.github.io/quiz/
 
 - The first image on the Home page I sourced from; https://www.deviantart.com/firebatata/art/Stock-Render-Old-Book-81772617
 - The image links for the slide-show are as follows; 
-   -images[0] = 'https://i.guim.co.uk/img/media/fd1398dcde9ef858d15a5cbacd2d4d13fae94ee2/447_0_1986_1192/master/1986.jpg?width=465&quality=45&auto=format&fit=max&dpr=2&s=a40ac39a948faf6f15c44d69fdb0e850';
-   -images[1] = 'https://irs.www.warnerbros.com/hero-banner-v2-tablet-jpeg/movies/media/browser/the_lord_of_the_rings_the_fellowship_of_the_ring_banner.jpeg';
-   -images[2] = 'https://static.dw.com/image/15912725_101.jpg';
-   -images[3] = 'https://assets.reedpopcdn.com/-1629897048023.jpg/BROK/thumbnail/1600x900/format/jpg/quality/80/-1629897048023.jpg';
-   -images[4] = 'https://ychef.files.bbci.co.uk/976x549/p04mbz2p.jpg';
-   -images[5] = 'https://www.dsogaming.com/wp-content/uploads/2020/12/The-Lord-of-the-Rings-The-Shire-Unreal-Engine-4.jpg';
-   -images[6] = 'https://c4.wallpaperflare.com/wallpaper/793/812/996/the-lord-of-the-rings-bag-end-the-shire-interiors-house-wallpaper-thumb.jpg';
-   -images[7] = 'https://4.bp.blogspot.com/-0_0N_ImKgNk/UDFHRCscN8I/AAAAAAAAAH4/ubjGvvV2Zv4/w1200-h630-p-k-no-nu/middle-earth-map.jpg';
+
+- [0] = 'https://i.guim.co.uk/img/media/fd1398dcde9ef858d15a5cbacd2d4d13fae94ee2/447_0_1986_1192/master/1986.jpg?width=465&quality=45&auto=format&fit=max&dpr=2&s=a40ac39a948faf6f15c44d69fdb0e850'
+- [1] = 'https://irs.www.warnerbros.com/hero-banner-v2-tablet-jpeg/movies/media/browser/the_lord_of_the_rings_the_fellowship_of_the_ring_banner.jpeg'
+- [2] = 'https://static.dw.com/image/15912725_101.jpg'
+- [3] = 'https://assets.reedpopcdn.com/-1629897048023.jpg/BROK/thumbnail/1600x900/format/jpg/quality/80/-1629897048023.jpg'
+- [4] = 'https://ychef.files.bbci.co.uk/976x549/p04mbz2p.jpg'
+- [5] = 'https://www.dsogaming.com/wp-content/uploads/2020/12/The-Lord-of-the-Rings-The-Shire-Unreal-Engine-4.jpg'
+- [6] = 'https://c4.wallpaperflare.com/wallpaper/793/812/996/the-lord-of-the-rings-bag-end-the-shire-interiors-house-wallpaper-thumb.jpg'
+- [7] = 'https://4.bp.blogspot.com/-0_0N_ImKgNk/UDFHRCscN8I/AAAAAAAAAH4/ubjGvvV2Zv4/w1200-h630-p-k-no-nu/middle-earth-map.jpg'
    
 ## Acknowledgements
 For inspiration, for code, design help and advice, I'd like to thank;
@@ -175,7 +176,7 @@ For inspiration, for code, design help and advice, I'd like to thank;
 Martina Terlevic
 - My wonderful mentor at Code Institute.
 
-- The Code Institute.
+The Code Institute.
 
 ## Sources
 Sites that provided me with helpful information and resolved many of my issues;
