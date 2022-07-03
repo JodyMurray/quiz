@@ -1,4 +1,4 @@
-#Project 2 - Quiz
+# quiz-project2
 
 <img width="1421" alt="Screenshot 2022-07-03 at 07 59 43" src="https://user-images.githubusercontent.com/101525431/177034439-f7dcc7a2-944b-422c-a71a-7ad06aa023a2.png">
 
@@ -172,4 +172,20 @@ https://jodymurray.github.io/quiz/
 ## Acknowledgements
 For inspiration, for code, design help and advice, I'd like to thank;
 
+Martina Terlevic
+- My wonderful mentor at Code Institute.
 
+- The Code Institute.
+
+## Sources
+Sites that provided me with helpful information and resolved many of my issues;
+https://www.w3schools.com/
+https://stackoverflow.com/
+https://youtube.com/
+
+The top screen shot for responsive design was taken from: 
+- https://ui.dev/amiresponsive
+
+Thank you
+
+[Back to top](#quiz-project2)
