@@ -20,6 +20,7 @@ body {
     background-position: center;
     background-size: cover;
     transition: 1s;
+    background-repeat: no-repeat;
 }
 
 /*home page styling*/
@@ -325,7 +326,7 @@ button:hover {
 }
 
 /* For Medium screens sizes from 1024px wide and down */
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1399px) {
     #welcome {
         font-size: 3.8rem;
     }
@@ -353,7 +354,6 @@ button:hover {
     body .quiz-section {
         font-size: 1rem;
         width: 100vh;
-        margin-top: 13%;
     }
 
     button {
@@ -364,6 +364,10 @@ button:hover {
 
 /* For tablet screens sizes from 768px wide and down */
 @media screen and (max-width: 768px) {
+    body {
+        background-size: cover;
+    }
+
     #welcome {
         font-size: 3rem;
     }
@@ -372,23 +376,25 @@ button:hover {
         font-size: 1.5rem;
     }
 
-    form img {
-        width: 100%;
+    #count {
+        font-size: 2.5rem;
     }
 
     body .quiz-section {
         font-size: 1rem;
         width: 100vh;
     }
+
+    #logo {
+        font-size: 2.5rem;
+        white-space: normal;
+    }
+
+    #menu-bar a {
+        font-size: 2.3rem;
+    }
 }
 
-/* For tablet screens sizes from 768px wide and down */
-@media screen and (max-width: 768px) {
-        #count {
-            font-size: 2.5rem;
-        }
-}
-    
 
 
 /* For large phone screens sizes from 425px wide and down */
@@ -402,9 +408,11 @@ button:hover {
     #start {
         font-size: 1.1rem;
     }
+
     #menu-bar a {
         position: relative;
         top: -5%;
+        font-size: 2rem;
     }
 
     header {
@@ -412,7 +420,7 @@ button:hover {
         white-space: pre-wrap;
         display: flex;
         flex-direction: column;
-        height: 22%;
+        height: 25%;
     }
 
     h2 {
@@ -421,6 +429,7 @@ button:hover {
 
     #logo {
         top: 15%;
+        font-size: 2.2rem;
     }
 
     #count {
@@ -430,6 +439,16 @@ button:hover {
     body .quiz-section {
         position: relative;
         top: 5%;
+        font-size: 1.5rem;
+    }
+    ul li label {
+        font-size: 1.8rem;
+    }
+    input[type='radio'] {
+        transform: scale(1.6);
+    }
+    button {
+        font-size: 2rem;
     }
 }
 
@@ -442,6 +461,7 @@ button:hover {
     #start {
         font-size: 1rem;
     }
+
     #menu-bar a {
         top: -5%;
     }
@@ -459,24 +479,37 @@ button:hover {
     }
 
     #start {
-        font-size: 1rem;
+        font-size: 1.1rem;
         left: 60%;
     }
-
+    header {
+        height: auto;
+        top: 20px;
+    }
     #logo {
-        top: 10%;
+        font-size: 1.5rem;
+        margin-top: 5%;
+    }
+    h2 {
+        font-size: 1.6rem;
+    }
+    ul li label {
+        font-size: 1.7rem;
     }
 
-    form img {
-        height: 60vh;
-        width: 50vh;
-    }
 
     #menu-bar a {
-        top: -20%;
+        font-size: 1.5rem;
+        margin-bottom: -10%;
     }
 
     .quiz-section {
         top: 5%;
     }
+    button {
+        font-size: 1.5rem;
+    }
+    input[type='radio'] {
+        transform: scale(1.5);
+}
 }
