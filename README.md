@@ -30,6 +30,7 @@ A live version of the site can be found here:
 - [Testing](#testing "Testing")
   - [Validator testing](#validator-testing "Validator Testing")
   - [Testing and bugs](#testing-and-bugs "Testing and bugs")
+- [Media](#media "Media")
 - [Deployment](#deployment "Deployment")
 - [Acknowledgements](#acknowledgements "Acknowledgements")
 - [Sources](#sources "Sources")
@@ -110,7 +111,7 @@ The slide-show of images is the result of a javascript function and source links
 # Validator testing 
 - HTML
   - No errors were found using W3C HTML validator testing.
-   <img width="1392" alt="Screenshot 2022-07-03 at 08 01 42" src="https://user-images.githubusercontent.com/101525431/177038154-8afff423-e453-4da7-9b45-a80bcc61b26a.png">
+<img width="1392" alt="Screenshot 2022-07-03 at 08 01 42" src="https://user-images.githubusercontent.com/101525431/177038154-8afff423-e453-4da7-9b45-a80bcc61b26a.png">
 <img width="1430" alt="Screenshot 2022-07-03 at 08 01 34" src="https://user-images.githubusercontent.com/101525431/177038162-63352cd3-6147-4150-910f-bd062709f69d.png">
 
 - CSS
@@ -119,11 +120,56 @@ The slide-show of images is the result of a javascript function and source links
 
 - JavaScript 
  - No errors were found using jShint validator testing.
-  <img width="638" alt="Screenshot 2022-07-03 at 11 52 01" src="https://user-images.githubusercontent.com/101525431/177038210-b71a6373-e4fc-4828-bc4b-39b3a508469d.png">
+<img width="638" alt="Screenshot 2022-07-03 at 11 52 01" src="https://user-images.githubusercontent.com/101525431/177038210-b71a6373-e4fc-4828-bc4b-39b3a508469d.png">
 
 # Lighthouse testing
 <img width="1430" alt="Screenshot 2022-07-02 at 19 22 04" src="https://user-images.githubusercontent.com/101525431/177038223-70e948d5-5eea-4c43-94b0-bbaccf62d8d6.png">
 
+## Testing and Bugs
+Tests have been conducted using Google Chrome, testing different devices and screen resolutions through google dev tools.
+The following is the bugs I came across:
 
+1. The main Home Page image of an open book had to be changed to a similar one as the original one wouldn't work properly on Firefox web browser.
+ - Solution; find a similar sized and looking image and make sure it's jPeg.
+2. Solution; The Timer on the Quiz page carries on to finish and then says "Done" and doesn't reset automatically. 
+ - The timer resets once the 'Reload' button is clicked.
+3. The border box containing the question and answers sometimes overlaps the header on smaller screens.
+ - Solution; Tried smaller fonts but it happens on short length screens.
+4. The jShint first showed errors of missing semicolons.
+ - Solution; Add said semicolons.
+5. On Firefox browser, the transition feature from the CSS doesn't work as nicely as it does on Google Chrome.
+
+## Deployment 
+The development platform used for this project was GitPod. To track the development stage and handle version control regular commits and pushes to GitHub has been conducted. The GitPod environment was created using a template provided by Code Institute.
+
+The live version of the project is deployed at GitHub pages.
+
+The procedure for deployment followed the "Creating your site" steps provided in GitHub Docs.
+
+*Log into Github.
+*Select the correct GitHub Repository to be deployed live.
+*Underneath the repository name, click the “Settings” option.
+*In the sub-section list on the left, under “Code and automation”, click “Pages”.
+*Within the ”Source” section choose ”main” as Branch and root as folder and click ”Save”.
+*The page refreshes and a website shall then deploy via a link.
+
+The live deployed link can be found here - 
+https://jodymurray.github.io/quiz/
+
+# Media
+
+- The first image on the Home page I sourced from; https://www.deviantart.com/firebatata/art/Stock-Render-Old-Book-81772617
+- The image links for the slide-show are as follows; 
+   -images[0] = 'https://i.guim.co.uk/img/media/fd1398dcde9ef858d15a5cbacd2d4d13fae94ee2/447_0_1986_1192/master/1986.jpg?width=465&quality=45&auto=format&fit=max&dpr=2&s=a40ac39a948faf6f15c44d69fdb0e850';
+   -images[1] = 'https://irs.www.warnerbros.com/hero-banner-v2-tablet-jpeg/movies/media/browser/the_lord_of_the_rings_the_fellowship_of_the_ring_banner.jpeg';
+   -images[2] = 'https://static.dw.com/image/15912725_101.jpg';
+   -images[3] = 'https://assets.reedpopcdn.com/-1629897048023.jpg/BROK/thumbnail/1600x900/format/jpg/quality/80/-1629897048023.jpg';
+   -images[4] = 'https://ychef.files.bbci.co.uk/976x549/p04mbz2p.jpg';
+   -images[5] = 'https://www.dsogaming.com/wp-content/uploads/2020/12/The-Lord-of-the-Rings-The-Shire-Unreal-Engine-4.jpg';
+   -images[6] = 'https://c4.wallpaperflare.com/wallpaper/793/812/996/the-lord-of-the-rings-bag-end-the-shire-interiors-house-wallpaper-thumb.jpg';
+   -images[7] = 'https://4.bp.blogspot.com/-0_0N_ImKgNk/UDFHRCscN8I/AAAAAAAAAH4/ubjGvvV2Zv4/w1200-h630-p-k-no-nu/middle-earth-map.jpg';
+   
+## Acknowledgements
+For inspiration, for code, design help and advice, I'd like to thank;
 
 
