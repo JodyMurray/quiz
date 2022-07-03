@@ -326,7 +326,7 @@ button:hover {
 }
 
 /* For Medium screens sizes from 1024px wide and down */
-@media screen and (min-width: 1024px) and (max-width: 1399px) {
+@media screen and (min-width: 800px) and (max-width: 1399px) {
     #welcome {
         font-size: 3.8rem;
     }
@@ -336,28 +336,30 @@ button:hover {
     }
 
     #logo {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     #menu-bar a {
-        font-size: 1.5rem;
+        font-size: 2rem;
+    }
+    #count {
+        font-size: 2rem;
     }
 
     h2 {
-        font-size: 2.3rem;
+        font-size: 2.5rem;
     }
 
     ul li label {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     body .quiz-section {
         font-size: 1rem;
-        width: 100vh;
     }
 
     button {
-        font-size: 1.5rem;
+        font-size: 2rem;
         padding: 5%;
     }
 }
@@ -375,23 +377,36 @@ button:hover {
     #start {
         font-size: 1.5rem;
     }
+    header {
+        width: 90%;
+    }
 
     #count {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     body .quiz-section {
         font-size: 1rem;
         width: 100vh;
+        margin-top: 20%;
     }
-
+    h2 {
+        font-size: 2rem;
+    }
     #logo {
-        font-size: 2.5rem;
+        font-size: 2rem;
         white-space: normal;
+        text-align: center;
     }
 
     #menu-bar a {
-        font-size: 2.3rem;
+        font-size: 2rem;
+    }
+    ul li label {
+        font-size: 2rem;
+    }
+    button {
+        font-size: 2rem;
     }
 }
 
@@ -411,8 +426,7 @@ button:hover {
 
     #menu-bar a {
         position: relative;
-        top: -5%;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     header {
@@ -429,7 +443,7 @@ button:hover {
 
     #logo {
         top: 15%;
-        font-size: 2.2rem;
+        font-size: 1.5rem;
     }
 
     #count {
@@ -448,7 +462,8 @@ button:hover {
         transform: scale(1.6);
     }
     button {
-        font-size: 2rem;
+        font-size: 1.5rem;
+        padding: 8%;
     }
 }
 
