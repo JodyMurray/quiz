@@ -37,6 +37,7 @@ body {
     letter-spacing: initial;
     flex-direction: row;
     max-width: 50%;
+    color: #404040;
 }
 
 #start {
