@@ -74,7 +74,6 @@ The slide-show of images is the result of a javascript function and source links
  - Home Page Image 
  - Quiz Header
  - Quiz Section
- - Header and back button.
 
 # Welcome note and start button
 - The Welcome note consits of a familiar quote from The Lord of the Rings series; "Not all those who wander are lost...". And next to it on a page like image is the 'Begin Quiz' Button, which brings you to the quiz page.
@@ -102,7 +101,28 @@ The slide-show of images is the result of a javascript function and source links
 
 <img width="1340" alt="Screenshot 2022-07-03 at 13 36 05" src="https://user-images.githubusercontent.com/101525431/177037782-f46543ab-fc8d-4b82-aa87-bfef9abf5e39.png">
 
+## Technologies Used 
+- HTML
+- CSS
+- JavaScript
 
+## Testing 
+# Validator testing 
+- HTML
+  - No errors were found using W3C HTML validator testing.
+   <img width="1392" alt="Screenshot 2022-07-03 at 08 01 42" src="https://user-images.githubusercontent.com/101525431/177038154-8afff423-e453-4da7-9b45-a80bcc61b26a.png">
+<img width="1430" alt="Screenshot 2022-07-03 at 08 01 34" src="https://user-images.githubusercontent.com/101525431/177038162-63352cd3-6147-4150-910f-bd062709f69d.png">
+
+- CSS
+  - No errors were found using W3C CSS validator testing.
+<img width="1416" alt="Screenshot 2022-07-03 at 08 02 07" src="https://user-images.githubusercontent.com/101525431/177038178-7f6fb13b-98c2-4200-8ad4-c02122d72eea.png">
+
+- JavaScript 
+ - No errors were found using jShint validator testing.
+  <img width="638" alt="Screenshot 2022-07-03 at 11 52 01" src="https://user-images.githubusercontent.com/101525431/177038210-b71a6373-e4fc-4828-bc4b-39b3a508469d.png">
+
+# Lighthouse testing
+<img width="1430" alt="Screenshot 2022-07-02 at 19 22 04" src="https://user-images.githubusercontent.com/101525431/177038223-70e948d5-5eea-4c43-94b0-bbaccf62d8d6.png">
 
 
 
