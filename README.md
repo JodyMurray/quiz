@@ -40,7 +40,7 @@ A live version of the site can be found here:
  This site has been designed for users of all ages and all fans of the great book and movie series, to test their knowledge and see if they really know the beloved series!
  
  ## User Goals
- * To have some fun and learn something about Lord of the Rings!
+ * To have some fun and learn something new about The Lord of the Rings!
  * To have fans test their knowledge.
  * To see some photos set the theme for the quiz.
  
@@ -49,4 +49,9 @@ The design has been inspired by a tutorial demonstration I came across: https://
 The aim for this website is to create a clean looking website with an appealing colour scheme, my colours were chosen to go with the book and fanstasy themed quiz.
 This website is two pages, links to each page are on both pages. The index.html contains a button stating 'Begin Quiz', which when pressed brings you to the quiz page: quiz.html. The second link is under the header on the quiz page stating 'Go Back', which brings you back to the Welcome note on the Home page.
 
-
+## Colour Scheme
+The colour scheme I chose because dark shades of green and grey remind me of the theme of the website.
+The colours I chose were:
+- 
+- 
+- 
