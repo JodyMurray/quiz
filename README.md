@@ -94,10 +94,14 @@ The slide-show of images is the result of a javascript function and source links
 # Quiz Section
 - The quiz section is a light-coloured box with the question, a timer, three possible answers to each question and radio buttons to mark the answers.
 - It also features a submit button which marks your answer correct or incorrect and takes you to the next question.
-- The end of the quiz shows us the amount of questions we answered correctly out of 13 questions. And it also includes a 'Reload' button which will bring you to the first question again and it will reset the timer for you to try the quiz again! 
 - The background features a slide-show of images from the Lord of the Rings series.
 
+<img width="1382" alt="Screenshot 2022-07-03 at 13 34 54" src="https://user-images.githubusercontent.com/101525431/177037821-1558307c-8d8b-44fc-88de-583bac7075ea.png">
+
+- The end of the quiz shows us the amount of questions we answered correctly out of 13 questions. And it also includes a 'Reload' button which will bring you to the first question again and it will reset the timer for you to try the quiz again! 
+
 <img width="1340" alt="Screenshot 2022-07-03 at 13 36 05" src="https://user-images.githubusercontent.com/101525431/177037782-f46543ab-fc8d-4b82-aa87-bfef9abf5e39.png">
+
 
 
 
