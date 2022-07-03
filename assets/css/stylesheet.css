@@ -342,6 +342,7 @@ button:hover {
     #menu-bar a {
         font-size: 2rem;
     }
+
     #count {
         font-size: 2rem;
     }
@@ -377,6 +378,7 @@ button:hover {
     #start {
         font-size: 1.5rem;
     }
+
     header {
         width: 90%;
     }
@@ -390,9 +392,11 @@ button:hover {
         width: 100vh;
         margin-top: 20%;
     }
+
     h2 {
         font-size: 2rem;
     }
+
     #logo {
         font-size: 2rem;
         white-space: normal;
@@ -402,9 +406,11 @@ button:hover {
     #menu-bar a {
         font-size: 2rem;
     }
+
     ul li label {
         font-size: 2rem;
     }
+
     button {
         font-size: 2rem;
     }
@@ -438,7 +444,7 @@ button:hover {
     }
 
     h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     #logo {
@@ -455,14 +461,17 @@ button:hover {
         top: 5%;
         font-size: 1.5rem;
     }
+
     ul li label {
-        font-size: 1.8rem;
+        font-size: 1.4rem;
     }
+
     input[type='radio'] {
         transform: scale(1.6);
     }
+
     button {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         padding: 8%;
     }
 }
@@ -497,17 +506,21 @@ button:hover {
         font-size: 1.1rem;
         left: 60%;
     }
+
     header {
         height: auto;
         top: 20px;
     }
+
     #logo {
         font-size: 1.5rem;
         margin-top: 5%;
     }
+
     h2 {
         font-size: 1.6rem;
     }
+
     ul li label {
         font-size: 1.7rem;
     }
@@ -521,10 +534,12 @@ button:hover {
     .quiz-section {
         top: 5%;
     }
+
     button {
         font-size: 1.5rem;
     }
+
     input[type='radio'] {
         transform: scale(1.5);
-}
+    }
 }
