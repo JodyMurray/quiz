@@ -52,6 +52,31 @@ This website is two pages, links to each page are on both pages. The index.html 
 ## Colour Scheme
 The colour scheme I chose because dark shades of green and grey remind me of the theme of the website.
 The colours I chose were:
-- 
-- 
-- 
+- The Welcome note has this colour: #404040, which is a soft dark grey.
+- The Begin quiz button has a dark green colour, and once hovered over it turns a dark slate grey.
+- The Quiz page has the colour black for the headings and questions and a black shadow on the borders.
+- The 'Go Back' button is a darkgreen colour and turns a dark grey colour once it's hovered over.
+- The quiz-box is this colour: rgb(182, 201, 182), which is an easy on the eyes pastel green colour. The box also has an opacity filter on it, so you can fully see the slide-show of images while you're taking the quiz.
+- The submit button is an antiquewhite colour and goes beige once it's hovered over. The text is a darkgreen colour.
+
+## Typography 
+- The fonts used for this project were from https://fonts.google.com/
+- Icons for the leaves in the header are from https://fontawesome.com/
+- The fonts used for the Welcome note are: 'Bilbo', cursive;
+- The fonts used for the Quiz page: 'MedievalSharp', cursive;
+
+## Images 
+Images have been chosen in accordance to colour and content. The purpose of the website is to give a friendly look and express quality. Images have been sized in order to match design and consistency.
+The slide-show of images is the result of a javascript function and source links to the images.
+
+## Features
+- Welcome note and start button.
+ - Home Page Image 
+ - Quiz
+ - Header and back button.
+
+# Welcome note and start button
+- The Welcome note consits of a familiar quote from The Lord of the Rings series; "Not all those who wander are lost...". And next to it on a page like image is the 'Begin Quiz' Button, which brings you to the quiz page.
+
+
+<img width="1433" alt="Screenshot 2022-07-03 at 13 19 25" src="https://user-images.githubusercontent.com/101525431/177037129-854877de-0233-49bd-b787-d29cafbd3b49.png">
