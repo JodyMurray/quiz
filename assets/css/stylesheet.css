@@ -508,35 +508,32 @@ button:hover {
     }
 
     header {
-        height: auto;
-        top: 20px;
+        height: 30vh;
     }
 
     #logo {
-        font-size: 1.5rem;
-        margin-top: 5%;
+        font-size: 1.3rem;
     }
 
     h2 {
-        font-size: 1.6rem;
+        font-size: 1.3rem;
     }
 
     ul li label {
-        font-size: 1.7rem;
+        font-size: 1.3rem;
     }
 
 
     #menu-bar a {
-        font-size: 1.5rem;
-        margin-bottom: -10%;
+        font-size: 1rem;
     }
 
-    .quiz-section {
-        top: 5%;
+    body .quiz-section {
+        top: 10%;
     }
 
     button {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
     input[type='radio'] {
