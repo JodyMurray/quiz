@@ -113,19 +113,13 @@ var interval = setInterval(function () {
 
 }, 1000);
 
-
-// function resetTimer() {
-//     if (count === 0) {
-//         document.getElementById('count').textContent = '20'
-//     }
-// }
 let currentQuiz = 0;
 let score = 0;
 //start quiz function
 startQuiz()
 
 function startQuiz() {
-    deselectAns()
+    deselectAnswer()
     const currentQuizData = questionData[currentQuiz];
 
     questionP.innerText = currentQuizData.question;
@@ -134,12 +128,12 @@ function startQuiz() {
     cText.innerText = currentQuizData.c;
 }
 
-function deselectAns() {
+function deselectAnswer() {
     answers.forEach(answers => answers.checked = false)
 }
 
 function getSelected() {
-    let answer
+    let answer;
     answers.forEach(answers => {
         if (answers.checked) {
             answer = answers.id;
@@ -150,7 +144,7 @@ function getSelected() {
 }
 
 submitButton.addEventListener('click', () => {
-    const answer = getSelected()
+    const answer = getSelected();
     if (answer === questionData[currentQuiz].correctAnswer) {
         score++;
     }
