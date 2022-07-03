@@ -116,10 +116,10 @@ var interval = setInterval(function () {
 let currentQuiz = 0;
 let score = 0;
 //start quiz function
-startQuiz()
+startQuiz();
 
 function startQuiz() {
-    deselectAnswer()
+    deselectAnswer();
     const currentQuizData = questionData[currentQuiz];
 
     questionP.innerText = currentQuizData.question;
@@ -129,7 +129,7 @@ function startQuiz() {
 }
 
 function deselectAnswer() {
-    answers.forEach(answers => answers.checked = false)
+    answers.forEach(answers => answers.checked = false);
 }
 
 function getSelected() {
@@ -150,11 +150,11 @@ submitButton.addEventListener('click', () => {
     }
     currentQuiz++;
     if (currentQuiz < questionData.length) {
-        startQuiz()
+        startQuiz();
     } else {
         quiz.innerHTML = `<h2>You answered ${score}/${questionData.length} questions correctly</h2>
             <button onclick="location.reload()">Reload</button>`
-    }
+    };
 });
 var i = 0;
 var images = [];
