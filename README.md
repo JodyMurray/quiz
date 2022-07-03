@@ -35,3 +35,18 @@ A live version of the site can be found here:
 - [Sources](#sources "Sources")
 
 ## UX 
+
+## User Demographic
+ This site has been designed for users of all ages and all fans of the great book and movie series, to test their knowledge and see if they really know the beloved series!
+ 
+ ## User Goals
+ * To have some fun and learn something about Lord of the Rings!
+ * To have fans test their knowledge.
+ * To see some photos set the theme for the quiz.
+ 
+ ## Design 
+The design has been inspired by a tutorial demonstration I came across: https://www.youtube.com/watch?v=49pYIMygIcU 
+The aim for this website is to create a clean looking website with an appealing colour scheme, my colours were chosen to go with the book and fanstasy themed quiz.
+This website is two pages, links to each page are on both pages. The index.html contains a button stating 'Begin Quiz', which when pressed brings you to the quiz page: quiz.html. The second link is under the header on the quiz page stating 'Go Back', which brings you back to the Welcome note on the Home page.
+
+
