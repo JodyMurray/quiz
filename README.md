@@ -70,13 +70,36 @@ Images have been chosen in accordance to colour and content. The purpose of the 
 The slide-show of images is the result of a javascript function and source links to the images.
 
 ## Features
-- Welcome note and start button.
+- Welcome note and start button
  - Home Page Image 
- - Quiz
+ - Quiz Header
+ - Quiz Section
  - Header and back button.
 
 # Welcome note and start button
 - The Welcome note consits of a familiar quote from The Lord of the Rings series; "Not all those who wander are lost...". And next to it on a page like image is the 'Begin Quiz' Button, which brings you to the quiz page.
 
-
 <img width="1433" alt="Screenshot 2022-07-03 at 13 19 25" src="https://user-images.githubusercontent.com/101525431/177037129-854877de-0233-49bd-b787-d29cafbd3b49.png">
+
+# Home Page Image 
+- The image used is an open book with two pages showing, the image used was from google. Going with the theme of books.
+
+<img width="1440" alt="Screenshot 2022-07-03 at 13 25 20" src="https://user-images.githubusercontent.com/101525431/177037328-67b81df6-fe80-4eae-86d1-eadb8cf287d3.png">
+
+# Quiz Header
+- The Quiz header contains a box bordering a header, stating what theme the quiz is for those who didn't know already. It also has a 'Go Back' button and leaf icons on either side.
+
+<img width="1356" alt="Screenshot 2022-07-03 at 13 29 59" src="https://user-images.githubusercontent.com/101525431/177037513-c9a66430-767d-4590-821b-7a9b1f82a015.png">
+
+# Quiz Section
+- The quiz section is a light-coloured box with the question, a timer, three possible answers to each question and radio buttons to mark the answers.
+- It also features a submit button which marks your answer correct or incorrect and takes you to the next question.
+- The end of the quiz shows us the amount of questions we answered correctly out of 13 questions. And it also includes a 'Reload' button which will bring you to the first question again and it will reset the timer for you to try the quiz again! 
+- The background features a slide-show of images from the Lord of the Rings series.
+
+<img width="1340" alt="Screenshot 2022-07-03 at 13 36 05" src="https://user-images.githubusercontent.com/101525431/177037782-f46543ab-fc8d-4b82-aa87-bfef9abf5e39.png">
+
+
+
+
+
