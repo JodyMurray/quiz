@@ -199,7 +199,6 @@ button:hover {
     }
 
     body .quiz-section {
-        font-size: 5rem;
         width: auto;
         height: auto;
     }
@@ -246,7 +245,6 @@ button:hover {
 
     body .quiz-section {
         height: auto;
-        font-size: 2.5rem;
         width: 55%;
         margin-top: 5%;
     }
@@ -293,7 +291,6 @@ button:hover {
 
     body .quiz-section {
         position: relative;
-        font-size: 2rem;
         width: 120vh;
         height: auto;
         margin-top: 10%;
@@ -340,9 +337,11 @@ button:hover {
     #logo {
         font-size: 2rem;
     }
+
     input[type='radio'] {
         transform: scale(1.2);
     }
+
     #menu-bar a {
         font-size: 2rem;
     }
@@ -360,7 +359,6 @@ button:hover {
     }
 
     body .quiz-section {
-        font-size: 1rem;
         width: 60%;
         margin-top: 8%;
     }
@@ -385,7 +383,7 @@ button:hover {
     }
 
     header {
-        width: 90%;
+        width: 85%;
     }
 
     #count {
@@ -393,7 +391,6 @@ button:hover {
     }
 
     body .quiz-section {
-        font-size: 1rem;
         width: 100vh;
         margin-top: 20%;
     }
@@ -440,6 +437,7 @@ button:hover {
         font-size: 1.6rem;
         top: -24px;
     }
+
     header {
         text-align: center;
         white-space: pre-wrap;
@@ -489,19 +487,25 @@ button:hover {
     #start {
         font-size: 1rem;
     }
+
     header {
         width: 80%;
     }
+
     #logo {
         font-size: 1.5rem;
+        top: 8%;
     }
 
     #menu-bar a {
         font-size: 1.4rem;
+        top: -10%;
     }
+
     h2 {
         font-size: 1.6rem;
     }
+
     ul li label {
         font-size: 1.5rem;
     }
@@ -510,6 +514,7 @@ button:hover {
         top: 5%;
         width: 95%;
     }
+
     button {
         font-size: 1.5rem;
     }
@@ -527,15 +532,17 @@ button:hover {
         left: 60%;
     }
 
-    header {
-        height: 27vh;
-    }
-
     #logo {
         font-size: 1.3rem;
+        top: 10%;
     }
+
     #count {
         font-size: 1.3rem;
+    }
+    #menu-bar a {
+        font-size: 1.2rem;
+        top: 6%;
     }
 
     h2 {
@@ -546,13 +553,9 @@ button:hover {
         font-size: 1.3rem;
     }
 
-
-    #menu-bar a {
-        font-size: 1.2rem;
-    }
-
     button {
         font-size: 1.4rem;
+        padding: 6%;
     }
 
     input[type='radio'] {

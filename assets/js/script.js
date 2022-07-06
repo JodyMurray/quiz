@@ -131,8 +131,6 @@ var interval = setInterval(function () {
 let currentQuiz = 0;
 let score = 0;
 //start quiz function
-startQuiz();
-
 function startQuiz() {
     deselectAnswer();
     const currentQuizData = questionData[currentQuiz];
@@ -182,5 +180,5 @@ function changePicture() {
     }
     setTimeout(changePicture, slideTime);
 }
-
+startQuiz();
 window.onload = changePicture;
