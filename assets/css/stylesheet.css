@@ -527,8 +527,7 @@ button:hover {
     }
 
     header {
-        height: 20vh;
-        width: 45vh;
+        height: 27vh;
     }
 
     #logo {
@@ -549,7 +548,6 @@ button:hover {
 
     #menu-bar a {
         font-size: 1.2rem;
-        top: -18%;
     }
 
     button {
