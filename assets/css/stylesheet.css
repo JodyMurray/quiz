@@ -436,8 +436,8 @@ button:hover {
 
     #menu-bar a {
         position: relative;
-        font-size: 1.9rem;
-        top: 30px;
+        font-size: 1.6rem;
+        top: -24px;
     }
     header {
         text-align: center;
@@ -453,8 +453,7 @@ button:hover {
     }
 
     #logo {
-        top: 15%;
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
 
     #count {
@@ -463,6 +462,7 @@ button:hover {
 
     body .quiz-section {
         position: relative;
+        top: 10%;
     }
 
     ul li label {
