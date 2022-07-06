@@ -327,7 +327,7 @@ button:hover {
 }
 
 /* For Medium screens sizes from 1024px wide and down */
-@media screen and (min-width: 800px) and (max-width: 1399px) {
+@media screen and (min-width: 800px) and (max-width: 1400px) {
     #welcome {
         font-size: 3.8rem;
     }
@@ -360,12 +360,12 @@ button:hover {
 
     body .quiz-section {
         font-size: 1rem;
-        width: 70%;
+        width: 60%;
+        margin-top: 8%;
     }
 
     button {
         font-size: 2rem;
-        padding: 5%;
     }
 }
 
@@ -488,16 +488,29 @@ button:hover {
     #start {
         font-size: 1rem;
     }
+    header {
+        width: 80%;
+    }
     #logo {
         font-size: 1.5rem;
     }
 
     #menu-bar a {
-        top: -5%;
+        font-size: 1.4rem;
+    }
+    h2 {
+        font-size: 1.6rem;
+    }
+    ul li label {
+        font-size: 1.5rem;
     }
 
     body .quiz-section {
         top: 5%;
+        width: 95%;
+    }
+    button {
+        font-size: 1.5rem;
     }
 }
 
@@ -514,10 +527,14 @@ button:hover {
     }
 
     header {
-        height: 23vh;
+        height: 20vh;
+        width: 45vh;
     }
 
     #logo {
+        font-size: 1.3rem;
+    }
+    #count {
         font-size: 1.3rem;
     }
 
@@ -531,7 +548,8 @@ button:hover {
 
 
     #menu-bar a {
-        font-size: 1rem;
+        font-size: 1.2rem;
+        top: -18%;
     }
 
     button {
