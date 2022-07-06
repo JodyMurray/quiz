@@ -436,38 +436,37 @@ button:hover {
 
     #menu-bar a {
         position: relative;
-        font-size: 1.5rem;
+        font-size: 1.9rem;
+        top: 30px;
     }
-
     header {
         text-align: center;
         white-space: pre-wrap;
         display: flex;
         flex-direction: column;
         height: 25%;
+        padding: 3%;
     }
 
     h2 {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     #logo {
         top: 15%;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     #count {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 
     body .quiz-section {
         position: relative;
-        top: 5%;
-        font-size: 1.5rem;
     }
 
     ul li label {
-        font-size: 1.4rem;
+        font-size: 1.7rem;
     }
 
     input[type='radio'] {
@@ -475,7 +474,7 @@ button:hover {
     }
 
     button {
-        font-size: 1.3rem;
+        font-size: 1.7rem;
         padding: 8%;
     }
 }
@@ -488,6 +487,9 @@ button:hover {
 
     #start {
         font-size: 1rem;
+    }
+    #logo {
+        font-size: 1.5rem;
     }
 
     #menu-bar a {
